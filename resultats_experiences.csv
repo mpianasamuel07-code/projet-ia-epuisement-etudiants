@@ -1,0 +1,10 @@
+volet,configuration,modèle,accuracy,f1_macro,rappel_eleve,f1_oui,rappel_oui,precision_oui
+1-épuisement,avec stress_level,Régression logistique,0.627,0.633,0.683,,,
+1-épuisement,avec stress_level,Random Forest,0.602,0.609,0.644,,,
+1-épuisement,avec stress_level,Gradient boosting,0.603,0.609,0.645,,,
+1-épuisement,sans stress_level,Régression logistique,0.574,0.579,0.639,,,
+1-épuisement,sans stress_level,Random Forest,0.557,0.563,0.584,,,
+1-épuisement,sans stress_level,Gradient boosting,0.565,0.57,0.615,,,
+2-soutien,"équilibré, burnout_score=True",Régression logistique,0.71,,,0.599,0.756,0.496
+2-soutien,"équilibré, burnout_score=True",Random Forest,0.772,,,0.494,0.388,0.678
+2-soutien,"équilibré, burnout_score=True",Gradient boosting,0.73,,,0.603,0.716,0.521
